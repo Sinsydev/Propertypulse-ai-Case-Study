@@ -31,12 +31,6 @@ The production source code for PropertyPulse AI is maintained in a **private rep
 
 This public repository serves as a technical case study highlighting the project's architecture, engineering decisions, and product capabilities while respecting confidentiality.
 
----
-
-# 📸 Product Preview
-
- 
----
 
  ## 🚀 Overview
 
@@ -48,65 +42,53 @@ Built with a modern React and TypeScript architecture, the platform combines AI-
 
 ---
 
-# 🎯 The Problem
-
-Many businesses lose potential customers because inquiries are answered too slowly or require constant manual effort.
-
-Traditional communication channels often struggle with:
-
-- Delayed customer responses
-- High support workload
-- Inconsistent communication
-- Poor lead tracking
-- Limited availability outside business hours
+ 
 
 ---
 
-# 💡 The Solution
-
-PropertyPulse AI addresses these challenges through an AI-powered conversational platform capable of:
-
-- Answering customer questions instantly
-- Managing appointment requests
-- Guiding users through property inquiries
-- Supporting business workflows with AI-driven conversations
-- Delivering a responsive experience across all devices
+ 
 
 ---
 
-# ✨ Key Features
+ ## ✨ Core Features
 
-- 🤖 AI-powered conversational assistant
-- 💬 Real-time customer interaction
-- 🔐 Secure authentication
-- 📱 Fully responsive interface
-- ⚡ Intelligent response workflows
-- 🧩 Modular component architecture
-- 🔄 API-driven communication
-- 📊 Scalable dashboard experience
+### 🤖 AI Receptionist
+Automates customer conversations with intelligent AI responses, reducing response times and improving customer engagement.
+
+### 📅 Smart Appointment Scheduling
+Allows customers to book appointments seamlessly while minimizing manual coordination.
+
+### 💬 Real-Time Conversations
+Delivers responsive, asynchronous communication for a smooth conversational experience.
+
+### 🔐 Secure Authentication
+Protects user accounts and sensitive customer information using Firebase Authentication.
+
+### 📊 Lead Management
+Captures, organizes, and tracks customer inquiries to help businesses convert more leads.
+
+### 📱 Responsive Experience
+Optimized for desktop, tablet, and mobile devices to ensure a consistent user experience across all platforms.
 
 ---
+ ## 🛠 Tech Stack
 
-# 🛠 Tech Stack
-
-## Frontend
-
+### Frontend
 - React
 - TypeScript
 - Tailwind CSS
 - Context API
-- Vite
 
-## Backend & Services
-
-- Firebase
+### Backend & Services
+- Firebase Authentication
+- Cloud Firestore
+- Twilio
 - OpenAI API
 - REST APIs
 
-## Development Tools
-
-- Git
-- GitHub
+### Development Tools
+- Vite
+- Git & GitHub
 - Postman
 
 ---
@@ -143,17 +125,10 @@ The platform follows a modular architecture designed for scalability, maintainab
 
 ---
 
-# ⚙️ Engineering Highlights
-
-The project emphasizes modern frontend engineering through:
-
-- Reusable component architecture
-- Scalable state management
-- Responsive UI design
-- AI-assisted interaction flows
-- Asynchronous API communication
-- Clean separation of concerns
-- Performance-focused rendering optimization
+ <p align="center">
+  <img src="assets/images/homepage.png" alt="PropertyPulse AI homepage" width="50%">
+   <img src="assets/images/dashboard.png" alt="PropertyPulse AI  dashboard" width="50%">
+</p>
 
 ---
 
