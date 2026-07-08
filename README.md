@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="assets/images/hero-banner.png" alt="PropertyPulse AI Banner" width="100%">
+</p>
+ 
+ 
  # 🤖 PropertyPulse AI
 
 > An AI-powered receptionist and customer interaction platform designed to automate conversations, streamline inquiry management, and deliver intelligent customer experiences across modern web applications.
