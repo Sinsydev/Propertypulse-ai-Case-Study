@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/images/hero-banner.png" alt="PropertyPulse AI Banner" width="50%" hieght="50%">
+  <img src="assets/images/hero-banner.png" alt="PropertyPulse AI Banner" width="100%"  >
 </p>
  
  
