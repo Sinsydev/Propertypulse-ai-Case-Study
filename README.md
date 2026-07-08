@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/images/hero-banner.png" alt="PropertyPulse AI Banner" width="100%"  >
+  <img src="assets/images/hero-banner.png" alt="PropertyPulse AI Banner" width="80%"  >
 </p>
  
  
@@ -125,9 +125,9 @@ The platform follows a modular architecture designed for scalability, maintainab
 
 ---
 
- <p align="center">
-  <img src="assets/images/homepage.png" alt="PropertyPulse AI homepage" width="50%" hieght="50%">
-   <img src="assets/images/dashboard.png" alt="PropertyPulse AI  dashboard" width="50%" hieght="50%">
+  <p align="center">
+  <img src="assets/images/homepage.png" width="48%" />
+  <img src="assets/images/dashboard.png" width="48%" />
 </p>
 
 ---
