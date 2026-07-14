@@ -41,7 +41,21 @@ Built with a modern React and TypeScript architecture, the platform combines AI-
 > **Note:** This repository is a public case study. The production source code is maintained in a private repository due to proprietary implementation details and ongoing product development.
 
 ---
+## 🚨 The Problem
 
+Businesses frequently lose potential customers because they cannot respond instantly to inquiries outside business hours or during periods of high demand. Manual appointment scheduling, delayed responses, and fragmented communication often result in missed opportunities and reduced customer satisfaction.
+
+Traditional customer support workflows also require significant human effort, making it difficult for growing businesses to scale while maintaining consistent service quality.
+
+---
+
+## 💡 The Solution
+
+PropertyPulse AI provides an AI-powered virtual receptionist capable of engaging customers in natural conversations, qualifying leads, answering common questions, and assisting with appointment scheduling.
+
+Built using React, TypeScript, Firebase, OpenAI, and Twilio, the platform demonstrates how conversational AI can automate customer engagement while remaining scalable, secure, and responsive across devices.
+
+The long-term vision extends beyond an AI receptionist to an intelligent customer engagement platform capable of supporting voice interactions, CRM integrations, predictive analytics, and multi-channel communication.
  
 
 ---
@@ -49,28 +63,57 @@ Built with a modern React and TypeScript architecture, the platform combines AI-
  
 
 ---
-
  ## ✨ Core Features
 
-### 🤖 AI Receptionist
-Automates customer conversations with intelligent AI responses, reducing response times and improving customer engagement.
+### 🤖 AI Assistant
 
-### 📅 Smart Appointment Scheduling
-Allows customers to book appointments seamlessly while minimizing manual coordination.
-
-### 💬 Real-Time Conversations
-Delivers responsive, asynchronous communication for a smooth conversational experience.
-
-### 🔐 Secure Authentication
-Protects user accounts and sensitive customer information using Firebase Authentication.
-
-### 📊 Lead Management
-Captures, organizes, and tracks customer inquiries to help businesses convert more leads.
-
-### 📱 Responsive Experience
-Optimized for desktop, tablet, and mobile devices to ensure a consistent user experience across all platforms.
+- Natural language conversations
+- AI-powered customer assistance
+- Intelligent lead qualification
+- Automated inquiry handling
 
 ---
+
+### 📅 Customer Management
+
+- Appointment scheduling
+- Lead capture
+- Customer inquiry management
+- Conversation history
+
+---
+
+### 🔐 Security
+
+- Firebase Authentication
+- Protected routes
+- Secure cloud storage
+- Environment variable configuration
+
+---
+
+### ⚙️ Engineering
+
+- Component-based React architecture
+- Type-safe TypeScript development
+- Modular project organization
+- Responsive UI
+- REST API integrations
+- Context API state management
+
+---
+
+### 🚀 Future AI Vision
+
+- Voice AI
+- CRM automation
+- Predictive lead scoring
+- AI analytics
+- WhatsApp Business
+- Calendar intelligence
+
+---
+
  ## 🛠 Tech Stack
 
 ### Frontend
@@ -96,32 +139,54 @@ Optimized for desktop, tablet, and mobile devices to ensure a consistent user ex
 # 🏗 Architecture
 
 ```
-Customer
+                    Customer
 
-      │
+                      │
 
-      ▼
+                      ▼
 
-React + TypeScript
+          React + TypeScript Frontend
 
-      │
+                      │
 
-Conversation Engine
+         Context API State Management
 
-      │
+                      │
 
-REST API Layer
+      Conversation & Business Logic Layer
 
-      │
+          ┌──────────────┬──────────────┐
 
-OpenAI API
+          ▼              ▼
 
-      │
+     OpenAI API      Twilio Services
 
-Firebase Services
+          │              │
+
+          └───────┬──────┘
+
+                  ▼
+
+        Firebase Cloud Platform
+
+     Authentication • Firestore • Storage
 ```
 
 The platform follows a modular architecture designed for scalability, maintainability, and high-performance conversational workflows.
+
+---
+
+## 🏛️ Design Principles
+
+PropertyPulse AI was designed around the following principles:
+
+• Scalability
+• Maintainability
+• Performance
+• User Experience
+• Security
+• Modularity
+• AI-first Design
 
 ---
 
